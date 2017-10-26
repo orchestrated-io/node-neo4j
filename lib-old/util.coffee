@@ -48,7 +48,7 @@ exports.wrapRequest = ({url, proxy}) ->
         opts.url = opts.uri = url
         opts.headers or= {}     # preserve existing headers
         opts.headers['User-Agent'] = USER_AGENT
-        opts.headers['X-Stream'] = true
+        # opts.headers['X-Stream'] = true
 
         # finally, update and return the modified args:
         args[0] = opts

@@ -70,8 +70,8 @@ module.exports = class GraphDatabase
             .chain()
             .clone()
             .defaults @headers      # These headers can be overridden...
-            .extend                 # ...while these can't.
-                'X-Stream': 'true'
+            # .extend                 # ...while these can't.
+            # 'X-Stream': 'true'
             .value()
 
         # TODO: Would be good to test custom proxy and agent, but difficult.
