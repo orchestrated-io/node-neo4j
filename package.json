@@ -9,8 +9,8 @@
     ],
     "main": "./lib-new/exports",
     "dependencies": {
-        "request": "^2.27.0",
-        "underscore": "1.7.x"
+        "request": "^2.83.0",
+        "underscore": "^1.7.0"
     },
     "devDependencies": {
         "chai": "^1.9.2",
@@ -31,7 +31,12 @@
         "test": "mocha test-new"
     },
     "keywords": [
-        "neo4j", "graph", "database", "driver", "client", "cypher"
+        "neo4j",
+        "graph",
+        "database",
+        "driver",
+        "client",
+        "cypher"
     ],
     "license": "Apache-2.0",
     "repository": {
